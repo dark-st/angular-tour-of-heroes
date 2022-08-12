@@ -7,7 +7,6 @@
   li {
     position: relative;
     cursor: pointer;
-
     &:hover {
       left: 0.1em;
     }
@@ -50,5 +49,40 @@
     text-align: right;
     margin-right: 0.8em;
     border-radius: 4px 0 0 4px;
+  }
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+.add-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+
+  &:hover {
+    color: white;
+    background-color: #42545c;
+  }
+}
+
+button.delete {
+  position: absolute;
+  left: 210px;
+  top: 5px;
+  background-color: white;
+  color: #525252;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 1px 10px 3px 10px;
+
+  &:hover {
+    background-color: #525252;
+    color: white;
   }
 }
